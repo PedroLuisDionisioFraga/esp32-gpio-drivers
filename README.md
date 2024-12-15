@@ -10,7 +10,7 @@ graph TD
     B --> C[Set GPIO Configuration]
     C --> D[Install ISR Service]
     D --> E[Read/Write GPIO State]
-    E --> F[Handle Interrupts (Optional)]
+    E --> F[Handle Interrupts to input GPIO's]
 ```
 
 ## Workflow Description
